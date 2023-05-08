@@ -109,6 +109,7 @@ button {
     border: 1px solid #DDDDDD;
     border-radius: 4px;
     margin-bottom: 32px; 
+    padding-right: 32px;
 }
 
 .newsCardDate {
@@ -128,6 +129,8 @@ button {
     line-height: 24px;
     color: #000000;
     padding-left: 32px;
+   /* // padding-right: 32px; */
+    text-align: left;
     margin-top: 28px;
 }
 
@@ -137,7 +140,8 @@ button {
     font-weight: 500;
     line-height: 18px;
     color: #D9852C;
-    padding-left: 185px;
+    text-align: right;
+    /* padding-left: 155px; */
     margin-top: 18px;
     margin-bottom: 32px;
 }
@@ -148,7 +152,7 @@ margin-top: 43px;
 
 
 
-@media screen and (min-width: 375px) {
+@media screen and (min-width: 320px) {
     .navBarDesktop{
         display: none;
     }
@@ -179,25 +183,25 @@ margin-top: 43px;
         margin: 89px auto 56px 72px;
     }
     .newsCardWrapper{
-        margin:auto 72px auto 72px;
+        /* margin:auto 72px auto 72px; */
         display: flex;
         flex-direction: row;   
         justify-content: space-around;
         gap: 20px; 
     }
-   .newsCard{
-        /* width: 187px;*/
-        width:100%;
-    }
-     /*
-    .newsCardImage>img{
-       width: 187px;      
-       width:100%;
-    }  */
-    /*
-    .newsCardBody{
+    /* .newsCard{
         width: 187px;
-    }*/
+        width:100%;
+    } */
+     
+    /* .newsCardImage>img{
+       width: 187px;
+       width:100%;
+    }   */
+    
+    .newsCardBody{
+        text-align: left;
+    }
     .newsCardHeading {
        /* width:123px;*/
         height:126px;
@@ -222,7 +226,7 @@ margin-top: 43px;
         display: none;
     }
     .navBarDesktop {
-        padding-left: 490px;
+        /* padding-left: 490px; */
         padding-right: 27px;
         display: flex;
         flex-direction: row;
@@ -239,14 +243,14 @@ margin-top: 43px;
         color: #FFFFFF;
         text-decoration: none;
     }    
-    .bttnGetStarted {
+    /* .bttnGetStarted {
         padding-left: 35px;
-    }
+    } */
     .textBox {
-        padding-left: 72px;
+        /* padding-left: 72px; */
      /*   width: 748px;*/
         height: 711px; 
-        transform: translate(0px, -100%);
+        /* transform: translate(0px, -100%); */
         max-width:800px;
     }
     .titleMain{
@@ -256,7 +260,7 @@ margin-top: 43px;
     .subTitle{
         font-size: 40px;
         line-height: 48px;
-        margin: 89px auto 44px 72px;
+        /* margin: 89px auto 44px 72px; */
     }
    /*
     .newsCard{
