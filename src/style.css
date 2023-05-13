@@ -25,7 +25,8 @@ body {
     padding-left: 32px;  
     display: flex;
     flex-direction: row;
-    justify-content:space-between;       
+    justify-content:space-between;   
+    align-items: center;    
    }
 
    .logoTextArt{
@@ -39,6 +40,7 @@ body {
     display:flex;
     flex-direction: column;
     padding-right: 32px; 
+    gap:5px;
     }
 
 .textBox {
@@ -189,10 +191,10 @@ margin-top: 43px;
         justify-content: space-around;
         gap: 20px; 
     }
-    /* .newsCard{
-        width: 187px;
-        width:100%;
-    } */
+    .newsCard{
+        /* width: 187px; */
+        width:calc((100%-40px)/3);
+    }
      
     /* .newsCardImage>img{
        width: 187px;
@@ -209,7 +211,8 @@ margin-top: 43px;
         line-height: 18px;
     }    
     .newsCardLink {
-         padding-left: 59px;
+         /* padding-left: 59px; */
+         text-align: right;
      }
      .blankSection{
         margin-top: 61px;
@@ -280,7 +283,4 @@ margin-top: 43px;
         font-size: 25px;
         line-height: 30px;
     }
-    .newsCardLink {
-         padding-left: 291px;
-     }
 }
